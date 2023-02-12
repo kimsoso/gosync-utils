@@ -1,0 +1,10 @@
+watchDir: /home/soso/go/src/btsync-utils/files
+remoteHost:
+  - 192.168.7.0/24:
+      - 192.168.7.177
+      - 192.168.7.177
+subnet: 192.168.7.0/24
+httpPort: 0
+port: 9111
+log: true
+verfile: files/#subnet#_ver.txt
